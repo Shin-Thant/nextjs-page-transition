@@ -19,9 +19,9 @@ export default function Product() {
             />
 
             <div className={styles.content}>
-                <h1 className={styles.headText}>{product.toUpperCase()}</h1>
+                <h1 className={styles.headText}>{product?.toUpperCase()}</h1>
                 <p className={styles.text}>
-                    <p className={styles.highlight}>{product.toUpperCase()}</p>{" "}
+                    <p className={styles.highlight}>{product?.toUpperCase()}</p>{" "}
                     is one of the premium products in our store.
                 </p>
                 <Link href="/">
